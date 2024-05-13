@@ -300,7 +300,7 @@ def main():
 
     if training_args.do_predict and not training_args.do_train:
         model.load_state_dict(torch.load('logs/max128-Use-segment-vector/ecthr/1e-5/nlpaueb/legal-bert-base-uncased/seed_1/pytorch_model.bin'))
-        print('参数导入成功##########################################################################################################')
+        print('##########################################################################################')
 
 
     # Preprocessing the datasets
