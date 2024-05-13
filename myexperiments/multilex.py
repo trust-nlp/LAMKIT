@@ -302,8 +302,8 @@ def main():
     else:
             raise NotImplementedError(f"{config.model_type} is no supported yet!")
     if training_args.do_predict and not training_args.do_train:
-        model.load_state_dict(torch.load('logs/Use-segment-vector/diabetes/2.5e-5/models/RoBERTa-base-PM-M3-Voc-distill-align-hf/seed_1/checkpoint-770/pytorch_model.bin'))
-        print('参数导入成功##########################################################################################################')
+        model.load_state_dict(torch.load('logs/Use-segment-vector/diabetes/1e-5/models/RoBERTa-base-PM-M3-Voc-distill-align-hf/seed_1/checkpoint-770/pytorch_model.bin'))
+        print('######################################################')
 
 
 
