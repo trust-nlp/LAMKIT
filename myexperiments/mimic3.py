@@ -328,7 +328,7 @@ def main():
 
     #if training_args.do_predict and not training_args.do_eval and not training_args.do_train:
     #model.load_state_dict(torch.load('/home/ghan/lex-glue/logs/Convolutional/bert-base-uncased/seed_1/pytorch_model.bin'))
-    #print('参数导入成功##########################################################################################################')
+    #print('#################################################################################################')
 
     # Preprocessing the datasets
     # Padding strategy
