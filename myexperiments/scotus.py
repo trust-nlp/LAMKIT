@@ -300,8 +300,8 @@ def main():
             raise NotImplementedError(f"{config.model_type} is no supported yet!")
 
     if training_args.do_predict and not training_args.do_train:
-        model.load_state_dict(torch.load('logs/withoutLV/scotus/3.5e-5/nlpaueb/legal-bert-base-uncased/seed_1/checkpoint-624/pytorch_model.bin'))
-        print('参数导入成功##########################################################################################################')
+        model.load_state_dict(torch.load('logs/scotus/1e-5/nlpaueb/legal-bert-base-uncased/seed_1/checkpoint-624/pytorch_model.bin'))
+        print('###############################################################################################')
 
 
     # Preprocessing the datasets
